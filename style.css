@@ -1,0 +1,52 @@
+/* === FONT SETUP (using web-safe alternatives for now) === */
+body {
+  font-family: "Century Gothic", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff; /* Clean White */
+  color: #000000; /* Rich Black */
+}
+
+/* === LOGO === */
+.logo {
+  max-width: 200px;
+  margin: 1rem auto;
+  display: block;
+}
+
+/* === HEADER === */
+header {
+  background-color: #000000; /* Rich Black */
+  color: #ffffff;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+/* === MAIN CONTENT === */
+main {
+  padding: 1.5rem;
+}
+
+h1, h2 {
+  font-family: "Bebas Neue", "Century Gothic", Arial, sans-serif;
+}
+
+.upcoming h2, .contact h2 {
+  color: #B24119; /* Rust Orange */
+  border-bottom: 2px solid #77787B; /* Steel Grey */
+  padding-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.upcoming, .contact {
+  margin-bottom: 2rem;
+}
+
+/* === FOOTER === */
+footer {
+  background-color: #D1D3D4; /* Cloud Grey */
+  color: #000;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.85rem;
+}
