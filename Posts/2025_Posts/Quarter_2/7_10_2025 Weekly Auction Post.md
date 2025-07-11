@@ -1,8 +1,7 @@
 ---
-layout: page
+layout: default
 title: 07/10/2025 Weekly Auction Post
 nav_order: 2
-has_children: false
 parent: 2025_Posts
 grand parent: Posts
 ---
