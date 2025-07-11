@@ -1,10 +1,10 @@
 ---
 layout: page
 title: 07/10/2025 Weekly Auction Post
-parent: 2025
-grand parent: Posts
 nav_order: 2
 has_children: false
+parent: 2025
+grand parent: Posts
 ---
 
 ### Weekly Auction Items
