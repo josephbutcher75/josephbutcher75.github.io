@@ -22,7 +22,7 @@ color_scheme: light
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Joeseph Butcher, Auctioneer
+title: Joe Butcher, Auctioneer
 description: West Virginia's Trusted Partner in Online Auctions. Proudly partnered with Kaufman Realty & Auctions of WV.
 url: "https://josephbutcher75.github.io/josephbutcherliveauction.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 repository: josephbutcherliveauction.github.io # for github-metadata
