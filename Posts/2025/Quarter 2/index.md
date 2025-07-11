@@ -2,6 +2,7 @@
 layout: page
 title: Quarter 2 Blog Posts
 parent: 2025
+grand_parent: Posts
 nav_order: 1
 has_children: false
 ---
