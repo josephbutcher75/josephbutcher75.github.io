@@ -1,0 +1,204 @@
+// Theme Switcher - Works with Just-the-Docs theme system
+// This approach leverages the existing color schemes without conflicts
+
+// Light theme (default) - will be overridden by dark theme when .jtd-dark is applied
+body.jtd-light {
+  // Light theme colors (matches Just-the-Docs light scheme)
+  --body-background-color: #fff;
+  --body-text-color: #27262b;
+  --body-heading-color: #27262b;
+  --link-color: #5c7cfa;
+  --nav-child-link-color: #5c7cfa;
+  --sidebar-color: #f5f6fa;
+  --base-button-color: #f7f7f7;
+  --btn-primary-color: #5c7cfa;
+  --code-background-color: #f5f6fa;
+  --table-background-color: #fff;
+  --search-background-color: #fff;
+  --border-color: #eeebee;
+  
+  background-color: var(--body-background-color);
+  color: var(--body-text-color);
+}
+
+// Dark theme - apply when .jtd-dark class is present
+body.jtd-dark {
+  // Dark theme colors (matches Just-the-Docs dark scheme)
+  --body-background-color: #202020;
+  --body-text-color: #f7f7f7;
+  --body-heading-color: #f7f7f7;
+  --link-color: #7c3aed;
+  --nav-child-link-color: #7c3aed;
+  --sidebar-color: #0d1117;
+  --base-button-color: #44434d;
+  --btn-primary-color: #7c3aed;
+  --code-background-color: #2f2f2f;
+  --table-background-color: #2f2f2f;
+  --search-background-color: #44434d;
+  --border-color: #44434d;
+  
+  background-color: var(--body-background-color);
+  color: var(--body-text-color);
+  
+  // Apply dark theme styles
+  .site-header {
+    background-color: var(--sidebar-color);
+    color: var(--body-text-color);
+  }
+  
+  .side-bar {
+    background-color: var(--sidebar-color);
+    color: var(--body-text-color);
+  }
+  
+  .main-content {
+    background-color: var(--body-background-color);
+    color: var(--body-text-color);
+  }
+  
+  .nav-list .nav-list-item .nav-list-link {
+    color: var(--body-text-color);
+    
+    &:hover,
+    &.active {
+      background-color: var(--base-button-color);
+    }
+  }
+  
+  .site-title {
+    color: var(--body-heading-color);
+  }
+  
+  // Headings
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--body-heading-color);
+  }
+  
+  // Links
+  a {
+    color: var(--link-color);
+    
+    &:hover {
+      color: var(--link-color);
+      opacity: 0.8;
+    }
+  }
+  
+  // Tables
+  .table-wrapper table {
+    background-color: var(--table-background-color);
+    color: var(--body-text-color);
+    
+    th {
+      background-color: var(--base-button-color);
+      color: var(--body-text-color);
+      border-color: var(--border-color);
+    }
+    
+    td {
+      border-color: var(--border-color);
+      color: var(--body-text-color);
+    }
+    
+    tr:nth-child(odd) {
+      background-color: rgba(255, 255, 255, 0.02);
+    }
+  }
+  
+  // Code blocks
+  .highlight {
+    background-color: var(--code-background-color) !important;
+    
+    code {
+      color: var(--body-text-color);
+      background-color: var(--code-background-color);
+    }
+  }
+  
+  code {
+    background-color: var(--code-background-color);
+    color: var(--body-text-color);
+    border: 1px solid var(--border-color);
+  }
+  
+  pre {
+    background-color: var(--code-background-color);
+    color: var(--body-text-color);
+  }
+  
+  // Search
+  .search-input {
+    background-color: var(--search-background-color);
+    color: var(--body-text-color);
+    border-color: var(--border-color);
+  }
+  
+  .search-results {
+    background-color: var(--search-background-color);
+    border-color: var(--border-color);
+  }
+  
+  // Buttons
+  .btn {
+    background-color: var(--base-button-color);
+    color: var(--body-text-color);
+    border-color: var(--border-color);
+    
+    &:hover {
+      background-color: var(--btn-primary-color);
+      color: white;
+    }
+  }
+  
+  .btn-primary {
+    background-color: var(--btn-primary-color);
+    color: white;
+    
+    &:hover {
+      background-color: var(--btn-primary-color);
+      opacity: 0.9;
+    }
+  }
+  
+  // Borders and dividers
+  hr {
+    border-color: var(--border-color);
+  }
+  
+  // Navigation
+  .nav-list {
+    .nav-list-item {
+      border-color: var(--border-color);
+      
+      .nav-list-expander {
+        color: var(--body-text-color);
+      }
+    }
+  }
+  
+  // Footer
+  .site-footer {
+    background-color: var(--sidebar-color);
+    color: var(--body-text-color);
+    border-color: var(--border-color);
+  }
+  
+  // Forms
+  input, textarea, select {
+    background-color: var(--search-background-color);
+    color: var(--body-text-color);
+    border-color: var(--border-color);
+  }
+  
+  // Blockquotes and callouts
+  blockquote {
+    border-left-color: var(--border-color);
+    color: var(--body-text-color);
+  }
+  
+  // Labels and badges
+  .label {
+    background-color: var(--base-button-color);
+    color: var(--body-text-color);
+  }
+} 
