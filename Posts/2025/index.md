@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2025
+title: 2025 Posts
 nav_order: 1
 has_children: true
 parent: Posts
