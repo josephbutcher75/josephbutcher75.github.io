@@ -24,7 +24,7 @@ color_scheme: light
 # in the templates via {{ site.myvariable }}.
 title: Joeseph Butcher, Auctioneer
 description: West Virginia's Trusted Partner in Online Auctions. Proudly partnered with Kaufman Realty & Auctions of WV.
-url: "https://github.com/pages/liveauction/josephbutcherliveauction.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://josephbutcher75.github.io/josephbutcherliveauction.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 repository: josephbutcherliveauction.github.io # for github-metadata
 
 ### Theme
