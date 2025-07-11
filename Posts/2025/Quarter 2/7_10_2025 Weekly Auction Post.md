@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Quarter 2
+title: 07/10/2025 Weekly Auction Post
+parent: Quarter 2
 nav_order: 2
 has_children: false
 ---

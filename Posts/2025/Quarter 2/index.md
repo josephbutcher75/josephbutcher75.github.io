@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Quarter 2
+title: Quarter 2 Blog Posts
+parent: Quarter 2
 nav_order: 1
 has_children: false
 ---

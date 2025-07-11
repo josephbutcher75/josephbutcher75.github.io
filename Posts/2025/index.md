@@ -1,7 +1,8 @@
 ---
 layout: page
-title: 2025
-nav_order: 3
+title: 2025 Home Page
+parent: 2025
+nav_order: 1
 has_children: true
 ---
 

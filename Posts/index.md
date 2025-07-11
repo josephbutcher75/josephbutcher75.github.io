@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Posts
+title: Posts Home Page
+parent: Posts
 nav_order: 2
 has_children: true
 ---
