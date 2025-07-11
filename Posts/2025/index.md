@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: 2025 Home Page
 parent: Posts
 nav_order: 1
