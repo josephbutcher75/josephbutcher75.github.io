@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Quarter 2 Blog Posts
+title: Quarter 2
 nav_order: 1
-has_children: false
+has_children: true
 parent: 2025_Posts
 ---
 
