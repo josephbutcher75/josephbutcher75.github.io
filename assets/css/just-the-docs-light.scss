@@ -1,0 +1,46 @@
+---
+---
+{% include css/just-the-docs.scss.liquid color_scheme="light" %}
+
+/* Light Theme Text Overrides for Better Readability */
+.main-content {
+  p, li, h1, h2, h3, h4, h5, h6, th, td, code, pre, blockquote {
+    color: #000000 !important;
+  }
+  
+  .highlight, .note, .important, .warning {
+    color: #000000 !important;
+    
+    p {
+      color: #000000 !important;
+    }
+  }
+}
+
+.side-bar {
+  color: #000000 !important;
+  
+  .nav-list .nav-list-item .nav-list-link {
+    color: #000000 !important;
+    
+    &:hover {
+      color: #000000 !important;
+    }
+  }
+}
+
+.site-header {
+  color: #000000 !important;
+  
+  .site-title {
+    color: #000000 !important;
+  }
+}
+
+.breadcrumb-nav {
+  color: #000000 !important;
+  
+  .breadcrumb-nav-item {
+    color: #000000 !important;
+  }
+}
